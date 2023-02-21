@@ -1,0 +1,48 @@
+body
+{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+}
+#logo
+{
+	 display:flex;
+	 justify-content: center;
+}
+#navigation
+{
+	border: 5px black;
+	border-style: solid none;
+	display:flex;
+	justify-content:space-between;
+	list-style-type: none;
+	padding:20px;
+	
+}
+a{
+	text-decoration: none;
+	color:black;
+	padding: 20px;
+	
+}
+ a.on:link {
+ 	color: red;
+ 	}
+ 
+#images{
+	display:flex;
+	justify-content:center;
+
+}
+
+#ho{color:red;}
+
+p{
+        font-family: monospace;
+	width:1100px;
+	font-size: 16px;
+	line-height: 1.6;
+	letter-spacing: 2px;
+  	word-spacing: 4.5px;
+  	margin:30px;
+}

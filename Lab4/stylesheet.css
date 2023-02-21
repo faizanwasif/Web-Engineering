@@ -1,0 +1,94 @@
+
+
+table
+{
+	width:1500px;
+	padding:25px;
+	border: 0.5px solid;
+	border-color: grey;
+	background-color: #C0C0C0;
+}
+th
+{
+	background-color: #D3D3D3;
+	padding:25px;
+	text-align:left;
+	margin: 40px;
+	color: rgba(100,100,91,255);
+	
+	
+}
+tbody>:nth-child(2){
+	 background-color: rgba(22,138,218,255); 
+	 color: white;	 
+}
+tbody>:nth-child(3){
+	 background-color: rgba(24,151,223,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(4){
+	 background-color: rgba(26,162,227,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(5){
+	 background-color: rgba(57,171,231,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(6){
+	 background-color: rgba(89,183,235,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(7){
+	 background-color: rgba(118,194,238,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(8){
+	 background-color: rgba(143,203,240,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(9){
+	 background-color: rgba(29,186,137,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(10){
+	 background-color: rgba(244,177,204,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(11){
+	 background-color: rgba(245,160,192,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(12){
+	 background-color: rgba(243,142,178,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(13){
+	 background-color: rgba(242,125,166,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(14){
+	 background-color: rgba(241,108,153,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(15){
+	 background-color: rgba(242,93,140,255); 
+	 color: white;
+	 
+}
+tbody>:nth-child(16){
+	 background-color: rgba(230,60,120,255); 
+	 color: white;
+	 
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Lab 3 Tasks</title>
+	</head>
+	<body>
+		<! Task 1 -- >
+		<section id = "task1">
+			<hr></hr>
+			<h3>Task 1</h3>
+			<hr></hr>
+			<div>
+				<table width="400" cellpadding="5" 
+				cellspacing="10" border="1" >
+				
+				<tr>
+					<th >Quick</th>
+					<th colspan="2">brown fox</th>
+					<th>jumps</th>
+				<tr>
+				<tr>
+					<th rowspan="3">over the</th>
+					<th>lazy</th>
+					<th>dog</th>
+					<th>and</th>
+				</tr>
+				<tr>
+					<th>then</th>
+					<th>it</th>
+					<th>fall</th>
+				</tr>
+				<tr>
+					<th colspan="3">prey to a hunter</th>
+				</tr>
+					
+				</table>
+			</div>
+		</section>
+		
+		<! Task 2 -- >
+		
+		<section id="task2">
+			<div>
+				<hr></hr>
+				<h3>Task 2</h3>
+				<hr></hr>
+				<h1>Registration form</h1>
+			</div>
+			<! Form -- >		
+			<div>
+				<form>
+				<! Personal Details -- >
+					<fieldset>
+						<legend>Personal Details</legend>
+						
+						<label>Name: <input type="text" name="username"/></label><br/>
+						<label>Address: <input type="text" name="address"/></label><br/>
+						<label>Email: <input type="text" name="email"/></label><br/>
+						<label>Phone: <input type="text" name="phone"/></label><br/>
+						<label>IQ: <input type="text" name="iq"/></label><br/>
+						
+						<h4>Gender</h4>
+						<input id="male" type="radio" name="gender" value="m">
+						<label for="male">Male</lable>
+						<br />
+						<input id="female" type="radio" name="gender" value="f">
+						<label for="female">Female</lable>
+						<br />
+						<input id="other" type="radio" name="gender" value="o">
+						<label for="other">Mental illness</lable>
+						
+						<br /> 
+						<br /> 
+						<label for="dob">Date of birth : </lable>
+						<input type="date" name="dob" value="dob">
+						
+						
+					</fieldset>
+					
+					<! Check List -- >
+					<fieldset>
+						<legend>Check List</legend>
+									
+						<h4>Check All That apply</h4>
+						<input id="chk_box" type="checkbox" name="check_box" value="chk1">
+						<label for="check1">check_01</lable><br />
+						<input id="chk_box" type="checkbox" name="check_box" value="chk2">
+						<label for="check1">check_02</lable><br />
+						<input id="chk_box" type="checkbox" name="check_box" value="chk3">
+						<label for="check1">check_03</lable><br />
+						<input id="chk_box" type="checkbox" name="check_box" value="chk4">
+						<label for="check1">check_04</lable><br />
+						
+					</fieldset>
+					
+					<! Education -- >
+					
+					<fieldset>
+						<legend>Education</legend>
+									
+						Eduction Level Completed:
+						<select>
+							<option value = "school">School</option>
+							<option value = "uni">Uni</option>
+							<option value = "clg">Clg</option>
+						</select>						
+					</fieldset>
+					
+					<! Essay Section -- >
+					
+					<fieldset>
+						<legend>Essay Section</legend>
+									
+						<p>In 50 words or more explain why you want to register</p>
+						<textarea name="reason" cols="30" rows="6"> Enter text here</textarea>						
+						<p>References</p>
+						<textarea name="reason" cols="30" rows="6">Enter text here</textarea>				
+						<br/>
+						<br/>
+						<label for="pdf">Upload documents: </lable>		
+						<input id="pdf" type="file" name="pdf" value="file">
+						
+					</fieldset>
+					
+					<! Button -- >
+					
+					<button type="submit">Submit Form</button>
+					
+				</form>
+			</div>
+		</section>
+	</body>
+</html>
