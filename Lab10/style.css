@@ -1,0 +1,46 @@
+/* Align labels below respective inputs */
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Style select dropdowns */
+  select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  /* Style date/time inputs */
+  input[type=datetime] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  /* Style the hour and minute select dropdowns */
+  #hrs, #mins {
+    width: 60px;
+    margin-right: 10px;
+  }
+  
+  /* Style the AM/PM select dropdown */
+  #am_pm {
+    width: 70px;
+  }
+  
+  /* Style the form headings */
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+    

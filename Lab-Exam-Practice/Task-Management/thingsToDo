@@ -1,0 +1,39 @@
+    Landing Page:
+
+    This page should have a header with the name of the application and a navigation menu.
+    It can have a brief description of the application and its features.
+    Finally, it should have a call-to-action button that leads the user to the task list page.
+
+    Task List Page:
+
+    This page should display a list of all the tasks.
+    It should have a header with the name of the application and a navigation menu.
+    It can have a search bar to search for tasks by keyword.
+    It should have a form to create a new task.
+    It should have a table to display all the tasks, with columns for task name, description, due date, and status.
+    Each row should have buttons to edit and delete the task.
+
+    Task Detail Page:
+
+    This page should display the details of a single task.
+    It should have a header with the name of the application and a navigation menu.
+    It should display all the details of the task, such as the name, description, due date, and status.
+    It should have buttons to edit and delete the task.
+
+    Create Task Page:
+
+    This page should have a form that allows users to create a new task.
+    It should have fields for task name, description, due date, and status.
+    It should have a button to submit the form and create the task.
+
+    Edit Task Page:
+
+    This page should have a form that allows users to edit an existing task.
+    It should have fields for task name, description, due date, and status.
+    It should have a button to submit the form and update the task.
+
+    Database:
+
+    You will need to create a database to store the tasks and their details.
+    You can use MySQL to create the database and PHP to interact with it.
+    You can use SQL queries to create, read, update, and delete tasks.

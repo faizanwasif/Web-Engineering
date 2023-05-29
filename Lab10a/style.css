@@ -1,0 +1,31 @@
+label{
+    color: grey;
+}
+
+hr{
+    color: grey;
+}
+
+h4{
+    color: rgb(83, 83, 83);
+}
+#space{
+    width: 190px;
+}
+
+#space-1{
+    width: 140px;
+}
+
+#space-2{
+    width: 130px;
+}
+
+#sp-5{
+    width: 185px;
+}
+
+#below-labels{
+    display: flex;
+    position: relative;
+}

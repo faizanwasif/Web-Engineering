@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lab 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>New Patient Registration Form</h1>
+    <h6>Please fill in the form below</h6>
+
+    <section id="form_body">
+        <h2>Hospital Name</h2>
+        
+        <hr>
+
+        <form action="validate.php" method="post">
+            <div id="hos_add">
+                <h4>Hospital Address</h4>
+                <label><input type="text" name="street_address"><br>Street Address</label><br><br>
+                <label><input type="text" name="street_address_line2"><br>Street Address Line 2</label><br><br>
+                        
+                <label><input type="text" name="city">City</label>
+                <label><input type="text" name="state_province">State/Province</label><br><br>
+                <select name="country_selection" id="country_selection">
+                    <option value="pak">Pakistan</option>
+                    <option value="tur">Turkey</option>
+                    <option value="can">Canada</option>
+                    <option value="china">China</option>
+                </select>               
+            </div>
+        
+        
+
+            <div id="hos_ph">
+                <h4>Hospital Phone Number</h4>
+                <label><input type="text" name="phone_area_code">Area Code</label>-
+                <label><input type="text" name="phone_number">Phone Number</label><br><br>
+            </div>
+            
+            <div id="char_num">
+                <h4>Chart Number</h4>
+                <label><input type="text" name="chart_number"></label>
+            </div>
+            
+            <div id="reg_clerk">
+                <h4>Registration Clerk ID</h4>
+                <label><input type="text" name="reg_clerk_id"></label>
+            </div>
+            
+            
+
+            <div id="reg_loca">
+                <h4>Registartion Location ex: ER, CLinic, etc</h4>
+                <label><input type="text"></label>
+            </div>
+
+
+            <div id="reg_date_time">
+                <h4>Registration Date and Time</h4>
+                <div>
+                  <label for="reg_datetime_month">Month</label>
+                  <input type="number" id="reg_datetime_month" name="reg_datetime_month" min="1" max="12" required>
+                </div>
+                <div>
+                  <label for="reg_datetime_day">Day</label>
+                  <input type="number" id="reg_datetime_day" name="reg_datetime_day" min="1" max="31" required>
+                </div>
+                <div>
+                  <label for="reg_datetime_year">Year</label>
+                  <input type="number" id="reg_datetime_year" name="reg_datetime_year" min="1900" max="2099" required>
+                </div>
+                <div>
+                  <label for="reg_datetime_hours">Hours</label>
+                  <select name="reg_datetime_hours" id="reg_datetime_hours" required>
+                    <option value="">-- Select hours --</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                   
+                  </select>
+                </div>
+                <div>
+                  <label for="reg_datetime_minutes">Minutes</label>
+                  <select name="reg_datetime_minutes" id="reg_datetime_minutes" required>
+                    <option value="">-- Select minutes --</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="reg_datetime_am_pm">AM/PM</label>
+                  <select name="reg_datetime_am_pm" id="reg_datetime_am_pm" required>
+                    <option value="">-- Select AM/PM --</option>
+                    <option value="am">AM</option>
+                    <option value="pm">PM</option>
+                  </select>
+                </div>
+              </div>
+              
+
+            <div id="health_care_num">
+                <h4>Health Care Number</h4>
+                <label><input type="text" value="ex:23"></label>
+            </div>
+
+
+            <div id="pat_name">
+                <h4>Patient Name</h4>
+                <label>First Name<input type="text"></label><br>
+                <label>Middle Name<input type="text"></label><br>
+                <label>Last Name<input type="text"></label><br>
+            </div>
+
+
+            <div id="address">
+                <h4>Address</h4>
+                <label><input type="text"><br>Street Address</label><br><br>
+                <label><input type="text"><br>Street Address Line 2</label><br><br>
+                
+                <label><input type="text">City</label><label><input type="text">State/Province</label><br><br>
+                
+                <label><input type="text">Postal / Zip Code</label><br><br>
+                <select name="country_selection" id="country_selection">
+                    <option value="pak">Pakistan</option>
+                    <option value="tur">Turkey</option>
+                    <option value="can">Canada</option>
+                    <option value="china">China</option>
+                </select>               
+            </div>
+
+
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </section>
+
+
+</body>
+</html>

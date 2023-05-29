@@ -1,0 +1,13 @@
+CREATE TABLE `Lab11`.`HosInfo` (`id` INT NOT NULL AUTO_INCREMENT , `name` VARCHAR(50) NOT NULL , `area_code` INT(3) NOT NULL , `ph_num` INT(7) NOT NULL , `address` TEXT NOT NULL , `city` VARCHAR(255) NOT NULL , `state` VARCHAR(255) NOT NULL , `postal` INT NOT NULL , `country` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB; 
+
+CREATE TABLE `Lab11`.`PatInfo` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `hos_id` INT NOT NULL,
+  `address` TEXT NOT NULL,
+  `city` VARCHAR(255) NOT NULL,
+  `state` VARCHAR(255) NOT NULL,
+  `postal` INT NOT NULL,
+  `country` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  FOREIGN KEY (`hos_id`) REFERENCES `HosInfo`(`id`) ON DELETE RESTRICT ON UPDATE RESTRICT
+) ENGINE = InnoDB;

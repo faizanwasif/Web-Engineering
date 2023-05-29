@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Lab 10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>New Registration Form</h1>
+    <label>Please fill in the form below</label>
+    
+    <hr>
+    <hr>
+    <br>
+
+    <h2>Hospital Name</h2><br><hr>
+    
+    <form action="validate.php" method="post">
+        
+        <div id="hos_add">
+            <h4>Hospital Address</h4>
+            
+            <input type="text" name="hos_strt_add" size="45"><br>
+            <label for="strt_add">Street Address</label>
+            
+            
+            <br>
+            <br>
+
+            <input type="text" name="hos_strt_add2" size="45"><br>
+            <label for="strt_add">Street Address Line 2</label>
+            
+            <br>
+            <br>
+
+            <input type="text" name="hos_city" size="20">
+            <input type="text" name="hos_state" size="20">
+            
+            <br>
+            <div id="below-labels">
+                <label for="hos_city">City</label>
+                    <div id="space"></div>
+                <label for="hos_state">State</label>
+            </div>
+            <br>
+
+            <input type="text" name="host_postal" size="20">
+            <select name="hos_country" id="country">
+                <option value="">--Please Select--</option>
+                <option value="china">China</option>
+                <option value="japan">Japan</option>
+                <option value="india">India</option>
+            </select>
+            <br>
+            <div id="below-labels">
+                <label for="hos_postal">Postal/Zip</label>
+                    <div id="space-1"></div>
+                <label for="hos_country">Country</label>
+            </div>
+        </div>
+
+
+        <!-- ------------------------------------------------------------------------------------------------ -->
+
+        <div id="phone">
+            <h4>Phone Number</h4>
+            <input type="text" name="ph_code" size="20">
+                <input type="text" name="ph_num" size="20">
+                
+                <br>
+                <div id="below-labels">
+                    <label for="ph_code">Area Code</label>
+                        <div id="space-1"></div>
+                    <label for="ph_code">Phone Number</label>
+                </div>
+                <br>
+        </div>
+
+        <!-- ------------------------------------------------------------------------------------------------ -->
+        <div>
+            <h4>Patient Name</h4>
+
+            <input type="text" name="fname" size="20">
+            <input type="text" name="mname" size="20">
+            <input type="text" name="lname" size="20">
+            
+            <br>
+            <div id="below-labels">
+                <label for="fname">first</label>
+                    <div id="sp-5"></div>
+                <label for="mname">middle</label>
+                    <div id="sp-5"></div>
+                <label for="lname">last</label>
+            </div>
+        <br>
+        </div>
+        
+
+        <!-- ------------------------------------------------------------------------------------------------ -->
+
+
+
+        <div id="address">
+            <h4>Address</h4>
+        
+            <input type="text" name="strt_add" size="45"><br>
+            <label for="strt_add">Street Address</label>
+        
+            <br>
+            <br>
+        
+            <input type="text" name="strt_add2" size="45"><br>
+            <label for="strt_add">Street Address Line 2</label>
+        
+            <br>
+            <br>
+        
+            <input type="text" name="city" size="20">
+            <input type="text" name="state" size="20">
+        
+            <br>
+            <div id="below-labels">
+                <label for="city">City</label>
+                <div id="space"></div>
+                <label for="state">State</label>
+            </div>
+            <br>
+        
+            <input type="text" name="postal" size="20">
+            <select name="country" id="country">
+                <option value="">--Please Select--</option>
+                <option value="china">China</option>
+                <option value="japan">Japan</option>
+                <option value="india">India</option>
+            </select>
+            <br>
+            <div id="below-labels">
+                <label for="postal">Postal/Zip</label>
+                <div id="space-1"></div>
+                <label for="country">Country</label>
+            </div>
+        </div>
+        
+        
+        
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+</body>
+</html>

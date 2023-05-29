@@ -1,0 +1,154 @@
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+    width: 100%;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #a6daf2 ;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+#nav-sec{
+    background-color: #007bff;
+    width: 100%;
+    left: 0;
+}
+
+nav{
+    overflow: hidden;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:right;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+nav a:hover{
+    color: grey;
+}
+
+p{
+    text-align: justify;
+    padding: 10px;
+}
+
+button{
+    background-color: #3c91ff;
+    border: 0px;
+    padding: 10px 15px;
+    align-self: center;
+    
+}
+
+button:hover{
+    background-color: #016fff;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+  /* Forms */
+  form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+
+label {
+  display: block;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+input[type="text"],input[type="email"],input[type="password"],
+textarea {
+  width: 90%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: #f1f1f1;
+  font-size: 18px;
+}
+
+input[type="file"] {
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  background-color: #3f92ff;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+input[type="submit"]:hover {
+  background-color: #357ae8;
+}
+
+table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+table th, table td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f2f2f2;
+  color: #555;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+@media screen and (min-width:720px){
+    html, body{
+        font-size: medium;
+    }
+    nav{
+        overflow: hidden;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+    }
+}
